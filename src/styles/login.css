@@ -1,0 +1,59 @@
+:root{
+    --primary:#3B2A9F;
+    --secondary:#FA8305;
+    --black:#1C140F;
+    --red:#CB1111;
+}
+
+
+@font-face {
+    font-family: 'Bold';
+    font-weight: 700;
+    src: url('../assets/Poppins-Bold.ttf') ;
+       
+}
+
+@font-face {
+    font-family: 'Medium';
+    font-weight: 500;
+    src: url('../assets/Poppins-Medium.ttf') ;
+       
+}
+
+.login{
+    background-color: var(--primary);
+    font-family: "Bold";
+}
+
+.login input{
+    border-radius: 10px;
+    background-color: var(--primary);
+    border-width: 3px;
+    border-color: var(--black);
+}
+
+.login input:focus{
+    background-color: var(--primary);
+    border-width: 3px;
+    border-color: var(--black);
+  
+}
+
+.login input::placeholder{
+    color: white;
+    font-family: "Medium";
+}
+
+.login button{
+    border-radius: 10px;
+    background-color: var(--secondary); 
+    font-family: "Medium";
+}
+
+.login h2{
+    color: var(--secondary);
+}
+
+
+
+   
